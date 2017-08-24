@@ -9,11 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kcpwarpper", "kcpwarpper\kc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{6DBC76E3-2021-4DAF-9E53-55659ADE1E86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kcpwarpper.netcore", "kcpwarpper.netcore\kcpwarpper.netcore.csproj", "{6B658F54-D82E-4B7E-BBCE-10E37E04CD4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kcpwarpper.netcore", "kcpwarpper.netcore\kcpwarpper.netcore.csproj", "{6B658F54-D82E-4B7E-BBCE-10E37E04CD4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kcpwarpper.std", "kcpwarpper.std\kcpwarpper.std.csproj", "{1578D9E3-4D07-4DA4-987F-31E532B92700}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kcpwarpper.std", "kcpwarpper.std\kcpwarpper.std.csproj", "{1578D9E3-4D07-4DA4-987F-31E532B92700}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kcplib_linux", "kcplib_linux\kcplib_linux.vcxproj", "{4871783C-9A46-494E-8958-953E77B1B33A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kcpwarpper.net35", "kcpwarpper.net35\kcpwarpper.net35.csproj", "{89377BAF-ED8A-4E71-B2D3-CF7036226F7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,22 @@ Global
 		{4871783C-9A46-494E-8958-953E77B1B33A}.Release|x64.Build.0 = Release|x64
 		{4871783C-9A46-494E-8958-953E77B1B33A}.Release|x86.ActiveCfg = Release|x86
 		{4871783C-9A46-494E-8958-953E77B1B33A}.Release|x86.Build.0 = Release|x86
+		{89377BAF-ED8A-4E71-B2D3-CF7036226F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89377BAF-ED8A-4E71-B2D3-CF7036226F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89377BAF-ED8A-4E71-B2D3-CF7036226F7E}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{89377BAF-ED8A-4E71-B2D3-CF7036226F7E}.Debug|ARM.Build.0 = Debug|Any CPU
+		{89377BAF-ED8A-4E71-B2D3-CF7036226F7E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{89377BAF-ED8A-4E71-B2D3-CF7036226F7E}.Debug|x64.Build.0 = Debug|Any CPU
+		{89377BAF-ED8A-4E71-B2D3-CF7036226F7E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{89377BAF-ED8A-4E71-B2D3-CF7036226F7E}.Debug|x86.Build.0 = Debug|Any CPU
+		{89377BAF-ED8A-4E71-B2D3-CF7036226F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89377BAF-ED8A-4E71-B2D3-CF7036226F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89377BAF-ED8A-4E71-B2D3-CF7036226F7E}.Release|ARM.ActiveCfg = Release|Any CPU
+		{89377BAF-ED8A-4E71-B2D3-CF7036226F7E}.Release|ARM.Build.0 = Release|Any CPU
+		{89377BAF-ED8A-4E71-B2D3-CF7036226F7E}.Release|x64.ActiveCfg = Release|Any CPU
+		{89377BAF-ED8A-4E71-B2D3-CF7036226F7E}.Release|x64.Build.0 = Release|Any CPU
+		{89377BAF-ED8A-4E71-B2D3-CF7036226F7E}.Release|x86.ActiveCfg = Release|Any CPU
+		{89377BAF-ED8A-4E71-B2D3-CF7036226F7E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

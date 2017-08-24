@@ -21,6 +21,9 @@
     <None Include="..\kcpwarpper\kcplib.pdb" Link="kcplib.pdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="..\kcpwarpper\kcplib.so" Link="kcplib.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
