@@ -31,6 +31,8 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,17 +52,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\kcpwarpper\kcplib.dll">
-      <Link>kcplib.dll</Link>
-    </Content>
-    <Content Include="..\kcpwarpper\kcplib.pdb">
-      <Link>kcplib.pdb</Link>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\kcpwarpper\kcplib.so">
-      <Link>kcplib.so</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    <None Include="..\kcpwarpper\libikcp.dll">
+      <Link>libikcp.dll</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\kcpwarpper\libikcp.pdb">
+      <Link>libikcp.pdb</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
